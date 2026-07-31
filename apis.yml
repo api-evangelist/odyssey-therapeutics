@@ -1,8 +1,23 @@
 aid: odyssey-therapeutics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/odyssey-therapeutics.png
 name: Odyssey Therapeutics
-description: Odyssey Therapeutics is a company surfaced as a portfolio company of lightspeed-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: Odyssey Therapeutics is a clinical-stage biopharmaceutical company developing small-molecule
+  and biologic therapeutics for autoimmune, inflammatory, and oncology indications. The company targets
+  upstream immune signaling mechanisms to prevent pathological inflammation rather than only suppressing
+  downstream responses, advancing a pipeline of precision medicines. It operates as a private,
+  venture-backed drug-discovery company with no public developer or API surface; this profile is
+  maintained in the API Evangelist network as a company record.
 url: https://raw.githubusercontent.com/api-evangelist/odyssey-therapeutics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +27,28 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 tags:
 - Company
+- Biopharmaceutical
+- Biotechnology
+- Drug Discovery
+- Immunology
+- Oncology
+- Therapeutics
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: DomainSecurity
+  url: security/odyssey-therapeutics-domain-security.yml
+- type: Website
+  url: https://odysseytx.com
